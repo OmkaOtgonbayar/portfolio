@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サービス詳細</title>
+
+<style>
+
+body{
+  font-family:"Meiryo","Yu Gothic",system-ui,sans-serif;
+  margin:0;
+  background:#f4f6f9;
+  color:#222;
+}
+
+/* =====================
+   PAGE TITLE
+===================== */
+
+.page-head{
+  text-align:center;
+  padding:40px 20px 10px;
+}
+
+.page-head h1{
+  font-size:32px;
+  letter-spacing:.18em;
+  color:#1d3557;
+}
+
+/* =====================
+   SERVICE BLOCK
+===================== */
+
+.service-detail{
+  max-width:1100px;
+  margin:50px auto;
+  padding:0 16px;
+}
+
+.service-detail h2{
+  font-size:22px;
+  margin-bottom:18px;
+  padding-left:12px;
+  border-left:6px solid #e63946;
+  color:#1d3557;
+}
+
+/* =====================
+   IMAGE GRID
+===================== */
+
+.service-gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+  gap:16px;
+}
+
+.service-gallery img{
+  width:100%;
+  aspect-ratio:4/3;
+  object-fit:cover;
+
+  border-radius:14px;
+  box-shadow:0 14px 40px rgba(0,0,0,.15);
+
+  cursor:pointer;
+  transition:transform .35s ease,
+             box-shadow .35s ease,
+             filter .35s ease;
+}
+
+/* hover */
+
+.service-gallery img:hover{
+  transform:translateY(-6px) scale(1.05);
+  box-shadow:0 22px 60px rgba(0,0,0,.22);
+  filter:brightness(.95);
+}
+
+/* =====================
+   BACK LINK
+===================== */
+
+.back-home{
+  display:block;
+  text-align:center;
+  margin:60px 0 40px;
+  font-weight:900;
+  letter-spacing:.14em;
+  color:#1d3557;
+}
+
+.back-home:hover{
+  color:#c89a4b;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="page-head">
+  <h1>サービス詳細ギャラリー</h1>
+</div>
+
+
+<!-- ===================== -->
+
+<section id="service01" class="service-detail">
+  <h2>戸建て住宅・二世帯住宅</h2>
+  <div class="service-gallery">
+    <img src="assets/img/100 (11).JPG">
+    <img src="assets/img/100 (10).JPG">
+    <img src="assets/img/100 (12).jpg">
+    <img src="assets/img/100 (8).JPG">
+  </div>
+</section>
+
+<!-- ===================== -->
+
+<section id="service02" class="service-detail">
+  <h2>集合住宅</h2>
+  <div class="service-gallery">
+    <img src="assets/img/100 (13).JPG">
+    <img src="assets/img/100 (14).JPG">
+    <img src="assets/img/100 (2).JPG">
+    <img src="assets/img/100 (3).JPG">
+  </div>
+</section>
+
+<!-- ===================== -->
+
+<section id="service03" class="service-detail">
+  <h2>住宅販売店</h2>
+  <div class="service-gallery">
+    <img src="assets/img/100 (15).JPG">
+    <img src="assets/img/100 (16).JPG">
+    <img src="assets/img/100 (4).JPG">
+    <img src="assets/img/100 (5).JPG">
+  </div>
+</section>
+
+<!-- ===================== -->
+
+<section id="service04" class="service-detail">
+  <h2>RC補修・リノベーション</h2>
+  <div class="service-gallery">
+    <img src="assets/img/100 (17).JPG">
+    <img src="assets/img/100 (18).JPG">
+    <img src="assets/img/100 (6).JPG">
+    <img src="assets/img/100 (7).JPG">
+  </div>
+</section>
+
+<a href="index.html" class="back-home">← HOME に戻る</a>
+
+</body>
+</html>

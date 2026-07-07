@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>お問い合わせ｜読売工務店</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+
+    <div class="logo">
+      <a href="index.html">読売工務店</a>
+    </div>
+
+    <!-- Burger -->
+    <button class="nav-toggle" aria-label="メニュー" type="button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="new-house.html">新築</a></li>
+        <li><a href="reform.html">リフォーム</a></li>
+        <li><a href="works.html">施工事例</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="staff.html">スタッフ</a></li>
+        <li><a href="company.html">会社概要</a></li>
+        <li><a href="access.html">アクセス</a></li>
+        <li><a class="cta" href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+
+<main class="page">
+
+  <section class="section reveal">
+    <div class="section-head">
+      <div>
+        <div class="section-title">■お問い合わせ</div>
+        <div class="section-desc">入力フォームよりご連絡ください</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <p style="color:#444">
+        下記の入力フォームへ必要事項をご記入の上、「送信する」ボタンを押して送信してください。<br>
+        送信完了後にこちらから自動返信メールをお送り致しますので、24時間待ってもメールが届かない場合は、ご入力いただいたメールアドレスが間違っていた可能性があります。<br>
+        その場合はお手数ですが、再度このページより送信ください。
+      </p>
+
+      <div class="hr"></div>
+
+      <form class="form" action="#" method="post">
+        <div class="field">
+          <label>お名前<span class="req">必須</span></label>
+          <input type="text" name="name" required>
+        </div>
+
+        <div class="field">
+          <label>フリガナ<span class="req">必須</span></label>
+          <input type="text" name="kana" required>
+        </div>
+
+        <div class="field">
+          <label>住所</label>
+          <input type="text" name="address">
+        </div>
+
+        <div class="field">
+          <label>電話番号</label>
+          <input type="tel" name="tel">
+        </div>
+
+        <div class="field">
+          <label>メールアドレス<span class="req">必須</span></label>
+          <input type="email" name="email" required>
+        </div>
+
+        <div class="field">
+          <label>メールアドレス確認入力<span class="req">必須</span></label>
+          <input type="email" name="email_confirm" required>
+        </div>
+
+        <div class="field">
+          <label>お問い合わせ内容<span class="req">必須</span></label>
+          <textarea name="message" required></textarea>
+        </div>
+
+        <div class="form-actions">
+          <button class="btn dark" type="submit">送信する</button>
+          <a class="btn primary" href="index.html">トップへ戻る</a>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div>© 2025 読売工務店</div>
+    <div>〒108-0014 東京都港区芝5-26-16 / TEL 03-3455-0221</div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
